@@ -7,7 +7,7 @@ else
 
 	rm sample.bmp /tmp/negative.bmp /tmp/grayscale.bmp /tmp/filter.bmp
 
-	#killall eog
+	killall eog
 
 	cp images/img$1.bmp sample.bmp
 	./img-proc sample.bmp
